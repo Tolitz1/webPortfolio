@@ -10,8 +10,8 @@ const main = () => {
             <Nav/>
             <Hero/>
             <Project/>
-            <Testimonial/>
-            <Footer/>
+            {/* <Testimonial/>
+            <Footer/> */}
         </div>
     )
 }
