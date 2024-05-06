@@ -1,4 +1,5 @@
-import { BsFacebook, BsTwitter, BsInstagram, BsPinterest } from "react-icons/bs";
+import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
+import { FaGithub, FaLinkedin  } from "react-icons/fa";
 import HeroPic from "../assets/alvin2.jpg";
 const hero = () => {
     return(
@@ -19,14 +20,15 @@ const hero = () => {
                 <p className="text-gray-600">
                 Donec nec tortor nulla. Ut tincidunt ligula et magna sagittis ullamcorper.
                 </p>
-                <button className="bg-white text-gray-600 px-10 py-2 my-3 rounded-full hover:bg-gray-600 hover:text-white">
+                {/* <button className="bg-white text-gray-600 px-10 py-2 my-3 rounded-full hover:bg-gray-600 hover:text-white">
                     Show More...
-                </button>
+                </button> */}
                 <div className="flex mt-5 space-x-4 cursor-pointer">
                     <BsFacebook size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
                     <BsTwitter size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
                     <BsInstagram size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
-                    <BsPinterest size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
+                    <FaGithub size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
+                    <FaLinkedin size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
                 </div>
             </div>
         </section>
