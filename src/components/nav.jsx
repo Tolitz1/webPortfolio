@@ -14,11 +14,12 @@ const nav = () => {
     }
     return(
         <>
-        <div className="bg-gray-800">
-            <div className="justify-items-center p-3 lg:flex-row overflow-hidden relative">
-                <h1 className="text-white font-semibold absolute top-0 left-0 whitespace-nowrap animate-moveText">The website is still under construction. Thank you!</h1>
-            </div>
-        </div>
+       <div className="bg-gray-800">
+    <div className="justify-items-center p-3 lg:flex-row overflow-hidden relative">
+        <h1 className="text-white font-semibold text-xs md:text-base lg:text-base absolute top-0 left-0 whitespace-nowrap animate-moveText">The website is still under construction. Thank you!</h1>
+    </div>
+</div>
+
         <div className="flex items-center justify-between p-5 lg:flex-row">
             <div>
                 <a href="#" className="text-gray-600 font-mono text-2xl tracking-wider flex items-center"> <SiPreact/>React</a>

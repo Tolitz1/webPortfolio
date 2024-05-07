@@ -10,4 +10,18 @@
   .animate-moveText {
     animation: moveText 25s linear infinite;
   }
+
+  @media (max-width: 640px) {
+    @keyframes moveText {
+      from {
+        transform: translateX(0%);
+      }
+      to {
+        transform: translateX(150%);
+      }
+    }
+    .animate-moveText {
+      animation: moveText 10s linear infinite;
+    }
+  }
   

@@ -24,11 +24,10 @@ const hero = () => {
                     Show More...
                 </button> */}
                 <div className="flex mt-5 space-x-4 cursor-pointer">
-                    <BsFacebook size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
-                    <BsTwitter size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
-                    <BsInstagram size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
-                    <FaGithub size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
-                    <FaLinkedin size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/>
+                    <a href="https://www.facebook.com/alvin.salvacion.75" target="_blank"><BsFacebook size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/></a>
+                    <a href="https://www.instagram.com/alvinslvcn/" target="_blank"><BsInstagram size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/></a>
+                    <a href="https://github.com/Tolitz1" target="_blank"><FaGithub size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/></a>
+                    <a href="https://www.linkedin.com/in/alvin-salvacion-2a2386211/?trk=opento_sprofile_details" target="_blank"><FaLinkedin size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/></a>
                 </div>
             </div>
         </section>

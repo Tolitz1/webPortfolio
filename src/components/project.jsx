@@ -15,10 +15,10 @@ export default function Project() {
                     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse">
                         <div className="md:flex">
                             <div className="p-8">
-                                <div className="tracking-wide text-sm to-gray-500 font-semibold">
-                                    SLSU eAppointment System
+                                <div className="uppercase tracking-wide text-sm to-gray-500 font-bold">
+                                    Appointment System
                                 </div>
-                                <a href="#">Subheading</a>
+                                <a href="#" className="font-semibold">Southern Luzon State University</a>
                                 <p className="mt-2 text-gray-500">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam saepe mollitia, vel obcaecati quia iusto doloribus facilis modi, quam impedit voluptate illo tempore cupiditate tenetur expedita accusantium et! Pariatur?
                                 </p>
@@ -31,10 +31,10 @@ export default function Project() {
                     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse">
                         <div className="md:flex">
                             <div className="p-8">
-                                <div className="tracking-wide text-sm to-gray-500 font-semibold">
+                                <div className="uppercase tracking-wide text-sm to-gray-500 font-bold">
                                     Document Tracking System
                                 </div>
-                                <a href="#">Subheading</a>
+                                <a href="#" className="font-semibold">Southern Luzon State University</a>
                                 <p className="mt-2 text-gray-500">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam saepe mollitia, vel obcaecati quia iusto doloribus facilis modi, quam impedit voluptate illo tempore cupiditate tenetur expedita accusantium et! Pariatur?
                                 </p>
@@ -50,10 +50,10 @@ export default function Project() {
                 <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse">
                         <div className="md:flex">
                             <div className="p-8">
-                                <div className="tracking-wide text-sm to-gray-500 font-semibold">
+                                <div className="uppercase tracking-wide text-sm to-gray-500 font-bold">
                                     Supply Inventory System
                                 </div>
-                                <a href="#">Subheading</a>
+                                <a href="#" className="font-semibold">Southern Luzon State University</a>
                                 <p className="mt-2 text-gray-500">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam saepe mollitia, vel obcaecati quia iusto doloribus facilis modi, quam impedit voluptate illo tempore cupiditate tenetur expedita accusantium et! Pariatur?
                                 </p>
@@ -66,10 +66,10 @@ export default function Project() {
                     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse">
                         <div className="md:flex">
                             <div className="p-8">
-                                <div className="tracking-wide text-sm to-gray-500 font-semibold">
+                                <div className="uppercase tracking-wide text-sm to-gray-500 font-bold">
                                    MIS Borrowing System
                                 </div>
-                                <a href="#">Subheading</a>
+                                <a href="#" className="font-semibold">Southern Luzon State University</a>
                                 <p className="mt-2 text-gray-500">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam saepe mollitia, vel obcaecati quia iusto doloribus facilis modi, quam impedit voluptate illo tempore cupiditate tenetur expedita accusantium et! Pariatur?
                                 </p>
@@ -85,10 +85,10 @@ export default function Project() {
                 <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl hover:animate-pulse">
                         <div className="md:flex">
                             <div className="p-8">
-                                <div className="tracking-wide text-sm to-gray-500 font-semibold">
+                                <div className="uppercase tracking-wide text-sm to-gray-500 font-bold">
                                 Digitization of Documents
                                 </div>
-                                <a href="#">Subheading</a>
+                                <a href="#" className="font-semibold">Southern Luzon State University</a>
                                 <p className="mt-2 text-gray-500">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam saepe mollitia, vel obcaecati quia iusto doloribus facilis modi, quam impedit voluptate illo tempore cupiditate tenetur expedita accusantium et! Pariatur?
                                 </p>
