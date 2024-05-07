@@ -22,7 +22,7 @@ const nav = () => {
 
         <div className="flex items-center justify-between p-5 lg:flex-row">
             <div>
-                <a href="#" className="text-gray-600 font-mono text-2xl tracking-wider flex items-center"> <SiPreact/>React</a>
+                <a href="#" className="text-gray-600 font-mono text-2xl tracking-wider flex items-center"> <SiPreact/><p>&nbsp;I'm a Developer<span class="blink">|</span></p></a>
             </div>
             <div className="space-x-4">
                 <div className="ssm:hidden lg:block space-x-2">

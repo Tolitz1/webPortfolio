@@ -9,7 +9,7 @@ const hero = () => {
                 <h1 className="text-6xl">Alvin Salvacion</h1>
                 <hr />
                 <p className="mt-10 text-gray-600 font-sans">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum elit posuere libero sollicitudin, eu aliquet felis consequat. Donec nec tortor nulla. Ut tincidunt ligula et magna sagittis ullamcorper. Quisque iaculis gravida rhoncus. Mauris imperdiet vitae eros a efficitur. 
+                I am a passionate Computer Programmer with a Bachelor of Science in Information Technology from STI College Lucena. From my past experience, I've had the opportunity to create web-based software, leveraging my skills in web development and software engineering.
                 </p>
             </div>
             <div className="w-1/3 item-center ssm:w-fit">
@@ -18,7 +18,7 @@ const hero = () => {
             <div className="w-1/3 ssm:w-fit">
                 <p className="text-4xl mb-4">About me</p>
                 <p className="text-gray-600">
-                Donec nec tortor nulla. Ut tincidunt ligula et magna sagittis ullamcorper.
+                I specialize in crafting innovative solutions through programming. Let's build something amazing together.
                 </p>
                 {/* <button className="bg-white text-gray-600 px-10 py-2 my-3 rounded-full hover:bg-gray-600 hover:text-white">
                     Show More...
