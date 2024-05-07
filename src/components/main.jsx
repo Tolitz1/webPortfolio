@@ -1,7 +1,7 @@
 import Nav from "./nav";
 import Hero from "./hero";
 import Project from "./project";
-import Testimonial from "./testimonial";
+import Skills from "./skills";
 import Footer from "./footer";
 const main = () => {
     return(
@@ -10,7 +10,7 @@ const main = () => {
             <Nav/>
             <Hero/>
             <Project/>
-            {/* <Testimonial/> */}
+            <Skills/>
             <Footer/>
         </div>
     )
