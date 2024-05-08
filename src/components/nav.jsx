@@ -2,6 +2,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { SiPreact } from "react-icons/si";
 import { useState } from "react";
+import { HashLink } from "react-router-hash-link";
 import './maintenance.css';
 
 const nav = () => {
@@ -19,7 +20,6 @@ const nav = () => {
         <h1 className="text-white font-semibold text-xs md:text-base lg:text-base absolute top-0 left-0 whitespace-nowrap animate-moveText">The website is still under construction. Thank you!</h1>
     </div>
 </div>
-
         <div className="flex items-center justify-between p-5 lg:flex-row">
             <div>
                 <a href="#" className="text-gray-600 font-mono text-2xl tracking-wider flex items-center"> <SiPreact/><p>&nbsp;I'm a Developer<span className="blink">|</span></p></a>

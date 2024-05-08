@@ -3,6 +3,8 @@ import Hero from "./hero";
 import Project from "./project";
 import Skills from "./skills";
 import Footer from "./footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 const main = () => {
     return(
         // <div className="bg-indigo-600">
