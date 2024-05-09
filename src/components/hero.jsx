@@ -9,7 +9,7 @@ const hero = () => {
                 <h1 className="text-6xl">Alvin Salvacion</h1>
                 <hr />
                 <p className="mt-10 text-gray-600 font-sans">
-                I am a passionate Computer Programmer with a Bachelor of Science in Information Technology from STI College Lucena. From my past experience, I've had the opportunity to create web-based software, leveraging my skills in web development and software engineering.
+                I am a passionate Computer Programmer with a Bachelor of Science in Information Technology from STI College Lucena, along with one year of hands-on experience in the field. In my previous work, I've had the opportunity to create web-based software, where I honed my skills in web development and software engineering.
                 </p>
             </div>
             <div className="w-1/3 item-center ssm:w-fit">
