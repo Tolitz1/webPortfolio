@@ -3,18 +3,27 @@ import Hero from "./hero";
 import Project from "./project";
 import Skills from "./skills";
 import Footer from "./footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import  BackToTopButton  from "./backToTopButton";
+import { BsFillArrowUpSquareFill } from "react-icons/bs";
+
 
 const main = () => {
     return(
-        // <div className="bg-indigo-600">
-        <div className="bg-gray-300">
-            <Nav/>
-            <Hero/>
-            <Project/>
-            <Skills/>
-            <Footer/>
-        </div>
+            <div className="bg-gray-300">
+                <Nav/>
+                <Hero/>
+                <section id="projectId">
+                    <Project/>
+                </section>
+                <section id="skillsId">
+                    <Skills/>
+                </section>
+                <section id="contactId">
+                    <Footer/>
+                </section>
+                <BackToTopButton/>
+            </div>
+
     )
 }
 

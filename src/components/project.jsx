@@ -4,10 +4,10 @@ import Dtslogo from "../assets/dts.png";
 import Supply from "../assets/supply.png";
 import Borrowing from "../assets/borrowing.png";
 import Dod from "../assets/dod.png";
+
 export default function Project() {
   return (
         <div className="bg-gray-800 m-20 max-w-full">
-            <section id="projectID">
                 <div className="grid justify-items-center m-10">
                     <h1 className="text-6xl text-gray-400 mt-10">Projects</h1>
                 </div>
@@ -101,7 +101,6 @@ export default function Project() {
                         </div>
                     </div>
                 </div>
-            </section>
         </div>
   )
 }
