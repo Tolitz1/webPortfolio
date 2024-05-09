@@ -8,9 +8,9 @@ import { ServiceData } from "../constants";
 const skills = () => {
   return (
     <div>
-      <div className="flex item-center justify-center flex-col h-screen">
+      <div className="flex item-center justify-center flex-col py-20">
           <div className="grid justify-items-center m-10">
-              <h1 className="text-6xl text-gray-600">Skills</h1>
+              <h1 className="text-4xl text-gray-600">Skills</h1>
           </div>
         <Swiper
           breakpoints={{

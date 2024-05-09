@@ -9,7 +9,7 @@ export default function Project() {
   return (
         <div className="bg-gray-800 m-20 max-w-full">
                 <div className="grid justify-items-center m-10">
-                    <h1 className="text-6xl text-gray-400 mt-10">Projects</h1>
+                    <h1 className="text-4xl text-gray-400 mt-10">Projects</h1>
                 </div>
                 <div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-5">

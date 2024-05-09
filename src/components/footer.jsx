@@ -4,7 +4,7 @@ import { MdCopyright } from "react-icons/md";
 
 export default function Footer() {
   return (
-<div className="flex flex-col bg-gray-800 text-white py-5 px-5 justify-center items-center">
+<div className="flex flex-col bg-gray-800 text-white mt-5 py-5 px-5 justify-center items-center">
   <div className="flex flex-wrap justify-center items-center mb-4">
     <div className="mb-4 sm:mb-0 sm:mr-4 flex items-center">
       <span className="font-semibold mr-4 flex items-center"><CiLocationArrow1 className="mr-2" />Lucban, Quezon Philippines</span>

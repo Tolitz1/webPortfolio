@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin  } from "react-icons/fa";
 import HeroPic from "../assets/alvin2.jpg";
 const hero = () => {
     return(
-        <section className="flex justify-around item-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-gray-600 h-screen">
+        <section className="flex justify-around item-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-gray-600">
             <div className="lg:w-1/3 ssm:w-fit">
                 <p className="text-4xl mb-5 text-gray-600">Hey there, I am</p>
                 <h1 className="text-6xl">Alvin Salvacion</h1>
