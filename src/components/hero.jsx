@@ -1,6 +1,8 @@
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { FaGithub, FaLinkedin  } from "react-icons/fa";
+import { GrDownload } from "react-icons/gr";
 import HeroPic from "../assets/alvin2.jpg";
+import Resume from "../assets/Salvacion_Alvin_CV.pdf";
 const hero = () => {
     return(
         <section className="flex justify-around item-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-gray-600">
@@ -20,9 +22,11 @@ const hero = () => {
                 <p className="text-gray-600">
                 I specialize in crafting innovative solutions through programming. Let's build something amazing together.
                 </p>
-                {/* <button className="bg-white text-gray-600 px-10 py-2 my-3 rounded-full hover:bg-gray-600 hover:text-white">
-                    Show More...
-                </button> */}
+                <a href={Resume} download="Salvacion_Alvin_CV.pdf" className="no-underline">
+                    <button className="bg-white text-lg font-semibold text-gray-600 px-10 py-2 my-3 rounded-full hover:bg-gray-600 flex items-center hover:text-white">
+                        <GrDownload className="mr-2" /> Download CV
+                    </button>
+                </a>
                 <div className="flex mt-5 space-x-4 cursor-pointer">
                     <a href="https://www.facebook.com/alvin.salvacion.75" target="_blank"><BsFacebook size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/></a>
                     <a href="https://www.instagram.com/alvinslvcn/" target="_blank"><BsInstagram size={40} className="border-4 hover:bg-gray-600 hover:text-white rounded-full"/></a>
